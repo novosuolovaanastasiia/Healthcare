@@ -1,4 +1,131 @@
-font-family: 'DM Sans', sans-serif;
+/* font-family: 'DM Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Rubik', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #EDF7FB;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.header-menu {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 80%;
+  height: 70px;
+  align-items: center;
+}
+
+.logo h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+  color: #40A3F8;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  justify-content: space-between;
+
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-right: 50px;
+
+}
+
+.nav-menu li {
+  color: #C4C7CC;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-menu li:hover {
+  color: #40A3F8;
+  transform: scale(1.3);
+}
+
+.nav-btn button {
+  width: 142px;
+  height: 47px;
+  background-color: #40A3F8;
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-btn button:hover {
+  transform: scale(1.1)
+}
+
+.search-doctor {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.search-doctor-content h2 {
+  margin-top: 230px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+}
+
+.search-doctor-content-img {
+  background-image: url(images/Back\ image\ shape.png);
+}
+
+.doctors {
+  color: #40A3F8;
+}
+
+.search-doctor-content p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: rgba(117, 117, 117, 0.46);
+  width: 460px;
+  margin-top: 31px;
+  margin-bottom: 50px;
+}
+
+form {
+  width: 566px;
+  height: 86px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+#find-your-doctor {
+  background-color: rgba(245, 246, 250, 0.52);
+  border-radius: 8px;
+  width: 216px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  
+}
+

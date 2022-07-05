@@ -11,61 +11,162 @@
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@400;500&family=Roboto:wght@400;500;700&family=Rubik:wght@500&display=swap"
     rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+  <script src="slick.min.js" defer></script>
+  <script src="script.js" defer></script>
+
   <title>Healthcare</title>
 </head>
 
 <body>
-  <header>
-    <div class="header-menu">
-      <div class="logo">
-        <h1>Healthcare</h1>
-      </div>
-      <div class="nav">
-        <div class="nav-menu">
-          <nav>
-            <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Article</li>
-              <li>Services</li>
-            </ul>
-          </nav>
+  <div class="content">
+    <div class="small-content">
+      <header>
+        <div class="header-menu">
+          <div class="logo">
+            <h1>Healthcare</h1>
+          </div>
+          <div class="nav">
+            <div class="nav-menu">
+              <nav>
+                <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Article</li>
+                  <li>Services</li>
+                </ul>
+              </nav>
+            </div>
+            <div class="nav-btn">
+              <button> Get Started</button>
+            </div>
+          </div>
         </div>
-        <div class="nav-btn">
-          <button> Get Started</button>
-        </div>
-      </div>
-    </div>
-  </header>
+      </header>
 
-  <main>
-    <div class="search-doctor">
-      <div class="search-doctor-content">
-        <h2>Find And Search <br>
-          <span class="doctors">Your Suitable Doctors</span>
-        </h2>
-        <p>Join us and take care of yourself and your family with health services that will make you feel confident and
-          safe in your daily life.</p>
-        <form action="action-page.php">
-          <input type="text" id="find-your-doctor" placeholder="Find your doctor">
-          <select name="country" id="country">
-            <option value="usa" selected>New York, USA</option>
-            <option value="uk">London, UK</option>
-            <option value="canada">Toronto, Canada</option>
-            <button><img src="images/search.png" alt="search"></button>
-        </form>
-      </div>
-      <div class="search-doctor-content-img">
-        <img src="images/Chat icon.png" alt="Call">
-        <img src="images/Chat icon2.png" alt="Video">
-        <img src="images/Chat icon3.png" alt="Message">
-        <img src="images/Patient review.png" alt="Patient review">
-        <img src="images/Patients.png" alt="Count of patients">
-        <img
-          src="images/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture 1.png"
-          alt="Doctor">
+      <main>
+        <div class="search-doctor">
+          <div class="search-doctor-content">
+            <h2>Find And Search <br>
+              <span class="doctors">Your Suitable Doctors</span>
+            </h2>
+            <p>Join us and take care of yourself and your family with health services that will make you feel confident
+              and
+              safe in your daily life.</p>
+            <form action="action-page.php">
+              <input type="text" id="find-your-doctor" placeholder="Find your doctor">
+              <select name="country" id="country">
+                <option value="usa" selected> <img src="images/Icon.png" alt="locati"> New York, USA</option>
+                <option value="uk">London, UK</option>
+                <option value="canada">Toronto, Canada</option>
+              </select>
+              <button><img src="images/search.png" alt="search"></button>
+            </form>
+          </div>
+          <div class="search-doctor-content-img">
+            <img class="call" src="images/Chat icon.png" alt="Call">
+            <img class="video" src="images/Chat icon2.png" alt="Video">
+            <img class="message" src="images/Chat icon3.png" alt="Message">
+            <img class="patient-review" src="images/Patient review.png" alt="Patient review">
+            <img class="patients" src="images/Patients.png" alt="Count of patients">
+            <img class="female-doctor"
+              src="images/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture 1.png"
+              alt="Doctor">
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="main-steps">
+    <div class="small-content">
+      <h3>3 Easy Steps and Get Your Solution</h3>
+      <div class="steps">
+        <div class="first-step">
+          <div class="search-img"><img src="images/search-3711861-3105214 1.png" alt="search"></div>
+          <h4>Find best doctors</h4>
+          <p>Find your doctor easily with a minimum of effort. We've kept everything organised for you.</p>
+        </div>
+        <div class="second-step">
+          <div class="calendar-img"><img src="images/calendar-3543016-2969403 1.png" alt="calendar"></div>
+          <h4>Get Appointment</h4>
+          <p>Ask for an appointment of the doctor quickly with almost a single click. We take care of the rest.</p>
+        </div>
+        <div class="third-step">
+          <div class="calculator-img"><img src="images/online-healthcare-app-3856289-3212453 1.png" alt="calculator">
+          </div>
+          <h4>Happy Consultations</h4>
+          <p>Do consultations and take the service based on your appointment. Get back to good health</p>
+        </div>
       </div>
     </div>
+  </div>
+
+  <div class="best-quality">
+    <div class="small-content">
+      <div class="quality-content">
+        <div class="guality-img">
+          <img src="images/Quality doctor.png" alt="">
+        </div>
+        <div class="quality">
+          <h2>
+            Best quality service with our experienced
+            doctors
+          </h2>
+          <p>With our top doctors, we are able to provide best medical services above average We have highly experienced
+            doctors, so don't worry They are also very talented in their fields</p>
+          <div class="quality-list">
+            <ul>
+              <li><img src="images/Vector.png" alt="">Search your specialist & Online consultations anywhere</li>
+              <li><img src="images/Vector.png" alt="">Consultation our top specialists</li>
+              <li><img src="images/Vector.png" alt="">Doctors are available 24/7</li>
+            </ul>
+            <button>Explore specialists <img src="images/Group.png" alt="arrow"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="small-content">
+      <div class="our-service">
+        <h2>Our Service</h2>
+        <h4>Our doctors have high qualified skills and are guaranteed to help you recover from your disease.</h4>
+        <div class="slider">
+          <div class="slider__item">
+            <img src="images/heart.png" alt="cardiology">
+            <h3>Cardiology</h3>
+            <p>Our cardiologists are skilled at the diagnosing and treating diseases
+              of the cardiovascular system.</p>
+          </div>
+          <div class="slider__item">
+            <img src="images/lungs.png" alt="pulmonology">
+            <h3>Pulmonology</h3>
+            <p>Our Pulmonologist are skilled at diagnosing treating diseases of the Pulmonology system.</p>
+          </div>
+          <div class="slider__item">
+            <img src="images/pill.png" alt="medcine">
+            <h3>Medicine</h3>
+            <p>Our medcine doctor are skilled at diagnosing treating diseases of the latest medicne system.</p>
+          </div>
+          <div class="slider__item">
+            <img src="images/heart.png" alt="cardiology">
+            <h3>Cardiology</h3>
+            <p>Our cardiologists are skilled at the diagnosing and treating diseases
+              of the cardiovascular system.</p>
+          </div>
+          <div class="slider__item">
+            <img src="images/lungs.png" alt="pulmonology">
+            <h3>Pulmonology</h3>
+            <p>Our Pulmonologist are skilled at diagnosing treating diseases of the Pulmonology system.</p>
+          </div>
+          <div class="slider__item">
+            <img src="images/pill.png" alt="medcine">
+            <h3>Medicine</h3>
+            <p>Our medcine doctor are skilled at diagnosing treating diseases of the latest medicne system.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   </main>
 </body>
 

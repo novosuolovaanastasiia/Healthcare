@@ -1770,6 +1770,19 @@ hr {
   .quote {
     transform: translate(330px, -13px);
   }
+
+  .healthcare-footer {
+    text-align: center;
+    margin-left: 40px;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+
+  .subscribe {
+    text-align: center;
+  }
 }
 
 
@@ -1797,6 +1810,9 @@ hr {
   .privacy ul {
     gap: 10px;
   }
+
+  .change-life {
+    margin-top: -70px;
 }
 
 @media screen and (max-width: 594px) {
@@ -2007,5 +2023,128 @@ hr {
   .change-life {
     height: 183px;
   }
+
+  .search-doctor {
+    height: 826px;
+  }
+
+  .reviews {
+    width: 70%;
+  }
+
+  .quote {
+    transform: translate(215px, -13px);
+  }
+
+  .review {
+    height: 445px;
+  }
+
+  .change-life-content h2 {
+    line-height: 32px;
+  }
+
+  .change-life-img img {
+    width: 230px;
+  }
+
+  .change-life {
+    height: 143px;
+  }
+
+}
+
+
+@media screen and (max-width: 415px) {
+  .logo h1 {
+    font-size: 18px;
+  }
+
+  .nav-menu li {
+    font-size: 8px;
+  }
+
+  .nav-btn button {
+    width: 70px;
+    height: 24px;
+    font-size: 8px;
+  }
+
+  .nav-btn form {
+    width: 70px;
+    height: 24px;
+  }
+
+  .search-doctor-content h2 {
+    font-size: 30px;
+  }
+
+  .search-doctor-content p {
+    margin-top: 20px;
+  }
+
+  #find-your-doctor {
+    font-size: 11px;
+    height: 45px;
+  }
+
+  #country {
+    font-size: 11px;
+    height: 45px;
+  }
+
+  form {
+    height: 60px;
+  }
+
+  .search-doctor {
+    height: 745px;
+  }
+
+  .quote {
+    transform: translate(170px, -13px);
+  }
+
+  .review {
+    height: 500px;
+  }
+
+  .stars h3 {
+    font-size: 16px;
+  }
+
+  .search-doctor-content-img {
+    width: 180%;
+    margin-left: -130px;
+    transform: scale(0.5);
+  }
+
+  form button {
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 381px) {
+  .logo h1 {
+    font-size: 16px;
+  }
+
+  .search-doctor {
+    height: 793px;
+  }
+
+  .search-doctor-content-img {
+    width: 190%;
+  }
+
+  .quote {
+    transform: translate(140px, -13px);
+  }
+
+  .privacy li {
+    font-size: 10px;
+  }
+
+
 
 }
